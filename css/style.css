@@ -12,7 +12,6 @@ div.port{
 }
 div.header{
     height: 700px;
-    background-image: url("images/home/aam_rasta_nahi_hai.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -22,7 +21,6 @@ div.header{
  
 div.bkg{
     height: 500px;
-    background-image: url("images/blog/instances.png");
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -33,7 +31,6 @@ div.footer{
     width: 200px;
 }
 div.backlast{
-    background-image: url("images/home/header.png");
     height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +40,6 @@ div.backlast{
 }
 div.banas-img{
     height: 880px;
-    background-image: url("images/home/banasthali.png");
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 100%;
@@ -59,7 +55,6 @@ div.block {
   background-color: transparent; 
 }
 div.headerabt{
-    background-image: url("images/about/IMG_20190805_192343166.jpg");
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
