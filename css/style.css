@@ -7,7 +7,11 @@ html, body {width: auto!important; overflow-x: hidden!important}
    height: 20px; 
    float: right;
 }
-
+@media screen and (max-width: 375px) {
+  body {
+    align-items: top;
+  }
+}
 div.port{
     background-color: black;
 }
@@ -49,10 +53,13 @@ div.banas-img{
     width: 100%;
 /*     padding: 0px 100px 0px 100px; */
 }
-@media screen and (max-width: 375px) {
-  body {
-    align-items: top;
-  }
+
+div.naac{
+    display: inherit;
+    background-color: #ffad33;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 div.block {
   display: block;
