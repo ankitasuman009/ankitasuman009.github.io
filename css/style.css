@@ -2,6 +2,7 @@
 .col-md-4 {
 
 }
+html, body {width: auto!important; overflow-x: hidden!important}
 .header{
    height: 20px; 
    float: right;
