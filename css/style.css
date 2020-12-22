@@ -18,9 +18,9 @@ div.port{
 div.header{
     height: 700px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     max-width: 100%;
-    width: 2000px;
+    width: 100%;
    display: inline-block;
 }
 
