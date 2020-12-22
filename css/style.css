@@ -2,14 +2,7 @@
 .col-md-4 {
 
 }
-html, body {
-    height: 100%;
-    width: 100%;
-}
-html {
-    overflow: auto!important;
-}
-/* html, body {width: auto!important; overflow-x: hidden!important} */
+html, body {width: auto!important; overflow-x: hidden!important}
 .header{
    height: 20px; 
    float: right;
