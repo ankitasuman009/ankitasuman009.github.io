@@ -46,7 +46,7 @@ div.banas-img{
     background-size: contain;
     max-width: 100%;
     width: 100%;
-    padding: 0px 100px 0px 100px;
+/*     padding: 0px 100px 0px 100px; */
 }
 @media screen and (max-width: 375px) {
   body {
