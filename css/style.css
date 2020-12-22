@@ -48,6 +48,11 @@ div.banas-img{
     width: 100%;
     padding: 0px 100px 0px 100px;
 }
+@media screen and (max-width: 375px) {
+  body {
+    align-items: flex-start;
+  }
+}
 div.block {
   display: block;
   width: 900px;
