@@ -9,7 +9,9 @@ and open the template in the editor.
         <title>Blog Page</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/icons.css" type="text/css">
+        <link rel="stylesheet" href="css/img.css" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
 
@@ -19,32 +21,11 @@ and open the template in the editor.
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <style>
-            .fa-linkedin { 
-                color: #FFFFFF;
-                font-size: 24px;
-            }
-            .fa-twitter {
-                color: white;
-                font-size: 24px;
-            }
-            .fa-envelope {
-                color: white;
-                font-size: 24px;
-            }
-            .fa-github {
-                color: white;
-                font-size: 24px;
-            }  
-            .fa-hackerrank {
-                color: white;
-                font-size: 24px;
-            } 
-        </style>
-        <nav class="navbar navbar-expand-sm bg-info nav-light">
-            <div class="col-sm-6 col-md-8"></div>
-            <div class="col-sm-6 col-md-4 has-nav desktop-right mobile-right">
-                <ul class="navbar-nav">
+        <header id="blog">
+            <nav id="nav-wrap">
+                <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+                <ul id="nav" class="nav">
                     <li class="navbar-item">
                         <a class="navbar-link text-light" href="home.html"> Home</a> &nbsp; &nbsp; &nbsp; &nbsp;
                     </li>
@@ -67,12 +48,12 @@ and open the template in the editor.
                         <a class="hackerrank si-rounded si-small si-hackerrank" href="https://www.hackerrank.com/ankitasuman8667"><i class="fab fa-hackerrank"></i></a> 
                     </li>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </header>
         
         <div class="container-fluid">
             <div class="row">
-                <div class="bkg">
+                <div class="bkg" style="background-image: url('images/blog/instances.png');">
                     <div class="col-md-12 text-left text-dark" style="margin-top: 120px; font-size: x-large">
                         It would be amazing if we can make instances of our own life too.
                     </div>
@@ -87,7 +68,7 @@ and open the template in the editor.
                         <h1 style=" text-align: left">Puzzle</h1>
                         <p style="color: gray; text-align: left">by ankitasuman, 21/12/2020</p>
                     
-                    <div class="jumbotron" style="margin: 0px 100px 0px 100px; font-size: 24px">
+                    <div class="jumbotron" style="font-size: 24px">
                         "You can solve an easy puzzle with little efforts and in no time. 
                         An average leveled puzzle will take more efforts to get solve and a hard one will took
                         days to get solved. But there is a puzzle which takes one's lifetime to get solved.
@@ -109,7 +90,7 @@ and open the template in the editor.
                         <h1 style=" text-align: left">Time</h1>
                         <p style="color: gray; text-align: left">by ankitasuman, 21/12/2020</p>
                     
-                    <div class="" style="margin: 40px 120px 0px 120px; font-size: 24px">
+                    <div class="" style="margin-top: 40px; font-size: 24px">
                         "Time has preciousness, resistance, importance and it is non-recurrence.
                         Saying says that " Once time will pass out, you can reach it again. It will never wait 
                         for you". 
@@ -127,7 +108,7 @@ and open the template in the editor.
                         <h1 style=" text-align: left">Full-Stop</h1>
                         <p style="color: gray; text-align: left">by ankitasuman, 21/12/2020</p>
                     
-                    <div class="" style="margin: 50px 150px 0px 150px; font-size: 24px">
+                    <div class="" style="margin-top: 50px; font-size: 24px">
                         "A full stop is used when an author have chosen to end a sentence.
                         The author is you and the sentence is your life.
                         You keep on ending your real life painful sentences with semi-colons, and
@@ -148,7 +129,7 @@ and open the template in the editor.
                 <div class="col-md-6  text-center ">
                     <h2>Things To <del>Remember</del>Forget</h2>
                     <p style="color: gray;">by ankitasuman, 21/12/2020</p>
-                    <div style="margin: 50px 100px 0px 100px; font-size: 24px; font-weight: 450">
+                    <div style="margin-top: 50px; font-size: 24px; font-weight: 450">
                         <p>What Is Lost Is Lost.</p>
                         <p>What Is Done Is Done.</p>
                         <p>Who Is Gone Is Gone.</p>
