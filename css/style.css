@@ -125,7 +125,7 @@ div.block {
 div.head {
     height: 600px;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto;
     background-position: center;
     max-width: 100%;
     width: 100%;
@@ -136,6 +136,7 @@ div.headerabt{
     height: 600px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-position: center;
     max-width: 100%;
     max-height: 800px;
     min-height: 700px;
@@ -150,7 +151,7 @@ div.naac{
     padding-top: 50px;
 }
 div.abttop{
-    position: relative;
+    position: static;
     display: inline-block;
     border: 1px solid white;
     font: inherit;
