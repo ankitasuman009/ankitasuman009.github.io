@@ -91,7 +91,7 @@ div.footer{
     width: 200px;
 }
 div.backlast{
-    height: 850px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -112,20 +112,20 @@ div.banas-img{
     /*padding: 0px 100px 0px 100px;*/
 }
 div.block {
-  display: block;
-  width: 900px;
-  height: 300px;
+  border: box;
+  width: 100%;
+  height: 100%;
   padding: 5px;
   border: 1px solid white;    
   background-color: transparent; 
   /*background-repeat: no-repeat;*/
-  background-size: contain;
+  background-size: auto;
   background-position: center;
 }
 div.head {
     height: 600px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     max-width: 100%;
     width: 100%;
@@ -135,12 +135,12 @@ div.head {
 div.headerabt{
     height: 600px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     max-width: 100%;
     max-height: 800px;
     min-height: 700px;
     width: 100%;
-    padding-top: 100px;
+    /*padding: 200px;*/
 }
 div.naac{
     display: inherit;
@@ -148,5 +148,16 @@ div.naac{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 50px;
+}
+div.abttop{
+    position: relative;
+    display: inline-block;
+    border: 1px solid white;
+    font: inherit;
+    font-size: x-large;
+    margin: 200px;
+    padding: 10px;
+    letter-spacing: 1.5px;
+    
 }
 
