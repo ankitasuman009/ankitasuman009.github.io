@@ -46,6 +46,9 @@ ul.nav {
    text-align: right;
    display: inline-block;
    float: right;
+   overflow: hidden; 
+   text-overflow: ellipsis;
+   white-space: nowrap;
 }
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
 	 margin: 0;
@@ -87,7 +90,7 @@ ul.nav li a {
 /* 8px padding top + 8px padding bottom + 32px line-height = 48px */
 
    display: inline-block;
-   padding: 40px 13px;
+   padding: 48px 13px;
    line-height: 32px;
    text-decoration: none;
    text-align: right;
